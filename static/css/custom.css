@@ -1,1 +1,327 @@
-/* your styles go here */
+/* Couleurs personnalisées */
+:root {
+    --primary-color: #ffffff;     /* Blanc pur */
+    --accent-color: #00bcd4;     /* Bleu cyan moderne */
+    --hover-color: #009688;      /* Turquoise */
+    --text-color: #1a1a1a;       /* Noir foncé pour tout le texte */
+    --light-bg: #f5f7f9;         /* Gris très clair */
+    --border-color: #e0e0e0;     /* Gris clair pour bordures */
+    --dark-text: #1a1a1a;        /* Noir foncé pour le texte */
+}
+
+/* Style global du corps de la page */
+body {
+    background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+    min-height: 100vh;
+}
+
+/* Style du sidebar amélioré */
+.sidebar {
+    background: var(--primary-color);
+    box-shadow: 5px 0 20px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.sidebar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(0,0,0,0.02) 25%, transparent 25%),
+                linear-gradient(-45deg, rgba(0,0,0,0.02) 25%, transparent 25%);
+    background-size: 60px 60px;
+    opacity: 0.5;
+}
+
+/* Style de la colonne de contenu */
+.content-column.white-background {
+    background: var(--primary-color);
+    margin: 0;
+    padding: 30px;
+}
+
+.content-column-content {
+    color: var(--dark-text);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style des cartes de projet */
+.box-masonry {
+    background: var(--gradient-start);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.box-masonry:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+/* Style du sidebar amélioré */
+.sidebar-content {
+    background: transparent;
+    position: relative;
+    z-index: 2;
+    padding: 40px 20px;
+}
+
+.sidebar-about h1 {
+    color: var(--dark-text);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.sidebar-about p {
+    color: var(--dark-text);
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.sidebar-menu li {
+    margin-bottom: 10px;
+}
+
+.sidebar-menu li a {
+    color: var(--dark-text);
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    background: var(--primary-color);
+    transition: all 0.3s ease;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.1);
+    text-decoration: none;
+}
+
+.sidebar-menu li a:hover,
+.sidebar-menu li a:focus,
+.sidebar-menu li.active a {
+    color: var(--dark-text);
+    background: var(--light-bg);
+    text-decoration: none;
+    transform: translateX(5px);
+}
+
+/* S'assurer que la couleur est appliquée même avec d'autres styles */
+.sidebar-menu li:hover a,
+.sidebar-menu li.active a,
+.sidebar-menu li a:hover,
+.sidebar-menu li a:focus {
+    color: var(--dark-text);
+}
+
+/* Style des liens sociaux */
+.sidebar .social {
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.sidebar .social a {
+    color: var(--dark-text);
+    font-size: 1.2em;
+    background: var(--primary-color);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.sidebar .social a:hover {
+    background: var(--light-bg);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Animation du sidebar */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.sidebar {
+    background-size: 200% 200%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+/* Style des projets */
+.box-masonry-text {
+    padding: 25px;
+}
+
+.box-masonry-title {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Style des liens */
+a {
+    color: var(--accent-color);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+a:hover {
+    color: var(--hover-color);
+    text-decoration: none;
+}
+
+/* Style des titres */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+/* Style des sections */
+.content-column {
+    background-color: var(--light-bg);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Style des boutons */
+.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 6px rgba(0,188,212,0.2);
+}
+
+.btn-primary:hover {
+    background-color: var(--hover-color);
+    border-color: var(--hover-color);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0,188,212,0.3);
+}
+
+/* Style des points clés */
+.box-masonry ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.box-masonry ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+}
+
+.box-masonry ul li:before {
+    content: "•";
+    color: var(--accent-color);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.box-masonry ul li:last-child {
+    border-bottom: none;
+}
+
+/* Style des images */
+.box-masonry img {
+    transition: all 0.5s ease;
+    border-radius: 8px 8px 0 0;
+}
+
+.box-masonry:hover img {
+    transform: scale(1.05);
+}
+
+/* Effets de survol élégants */
+.box-masonry .box-masonry-text {
+    position: relative;
+}
+
+.box-masonry .box-masonry-text:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    right: 25px;
+    height: 2px;
+    background: var(--accent-color);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.box-masonry:hover .box-masonry-text:after {
+    transform: scaleX(1);
+}
+
+/* Style du footer */
+#footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 0;
+}
+
+/* Responsive design improvements */
+@media (max-width: 767px) {
+    .box-masonry {
+        margin-bottom: 25px;
+    }
+    
+    .content-column {
+        padding: 15px;
+    }
+    
+    .box-masonry-text {
+        padding: 20px;
+    }
+}
+
+/* Forcer le texte en noir foncé partout */
+p, li, span, div, .content-column-content p, 
+.content-column-content li, .sidebar-p,
+.content-column-content p.lead {
+    color: var(--dark-text) !important;
+}
+
+/* Forcer le texte en noir pour les descriptions et autres éléments */
+.portfolio-item .box-masonry .box-masonry-text p {
+    color: var(--dark-text) !important;
+}
+
+/* S'assurer que le texte du footer est aussi en noir */
+.copyright p, .credit {
+    color: var(--dark-text) !important;
+}
