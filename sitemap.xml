@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ikram-gryach.github.io/hugo-portfolio/portfolio/plateforme-collaborative/</loc>
+    <loc>/portfolio/plateforme-collaborative/</loc>
     <lastmod>2024-03-20T19:59:22+05:30</lastmod>
   </url><url>
-    <loc>https://ikram-gryach.github.io/hugo-portfolio/portfolio/data-science-ransomware/</loc>
+    <loc>/portfolio/data-science-ransomware/</loc>
     <lastmod>2024-03-20T19:59:22+05:30</lastmod>
   </url><url>
-    <loc>https://ikram-gryach.github.io/hugo-portfolio/portfolio/iot-irrigation/</loc>
+    <loc>/portfolio/iot-irrigation/</loc>
     <lastmod>2024-03-20T19:59:22+05:30</lastmod>
   </url><url>
-    <loc>https://ikram-gryach.github.io/hugo-portfolio/portfolio/tipe-shapley/</loc>
+    <loc>/portfolio/tipe-shapley/</loc>
     <lastmod>2024-03-20T19:59:22+05:30</lastmod>
   </url><url>
-    <loc>https://ikram-gryach.github.io/hugo-portfolio/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2024-03-20T21:05:33+05:30</lastmod>
   </url><url>
-    <loc>https://ikram-gryach.github.io/hugo-portfolio/contact/</loc>
+    <loc>/contact/</loc>
     <lastmod>2024-03-20T21:05:33+05:30</lastmod>
   </url><url>
-    <loc>https://ikram-gryach.github.io/hugo-portfolio/</loc>
+    <loc>/</loc>
     <lastmod>2024-03-20T21:05:33+05:30</lastmod>
   </url><url>
-    <loc>https://ikram-gryach.github.io/hugo-portfolio/portfolio/</loc>
+    <loc>/portfolio/</loc>
     <lastmod>2024-03-20T19:59:22+05:30</lastmod>
   </url><url>
-    <loc>https://ikram-gryach.github.io/hugo-portfolio/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://ikram-gryach.github.io/hugo-portfolio/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>

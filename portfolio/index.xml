@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolios on Ikram GRYACH - Portfolio</title>
-    <link>https://ikram-gryach.github.io/hugo-portfolio/portfolio/</link>
+    <link>/portfolio/</link>
     <description>Recent content in Portfolios on Ikram GRYACH - Portfolio</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
     <lastBuildDate>Wed, 20 Mar 2024 19:59:22 +0530</lastBuildDate>
-    <atom:link href="https://ikram-gryach.github.io/hugo-portfolio/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Plateforme de Partage Sécurisée</title>
-      <link>https://ikram-gryach.github.io/hugo-portfolio/portfolio/plateforme-collaborative/</link>
+      <link>/portfolio/plateforme-collaborative/</link>
       <pubDate>Wed, 20 Mar 2024 19:59:22 +0530</pubDate>
-      <guid>https://ikram-gryach.github.io/hugo-portfolio/portfolio/plateforme-collaborative/</guid>
+      <guid>/portfolio/plateforme-collaborative/</guid>
       <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;p&gt;Développement d&amp;rsquo;une plateforme collaborative sécurisée permettant le partage de fichiers avec authentification.&lt;/p&gt;&#xA;&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;JavaScript, HTML, CSS&lt;/li&gt;&#xA;&lt;li&gt;MySQL&lt;/li&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;UML&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;points-clés&#34;&gt;Points Clés&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Authentification sécurisée&lt;/li&gt;&#xA;&lt;li&gt;Interface intuitive&lt;/li&gt;&#xA;&lt;li&gt;Gestion des droits d&amp;rsquo;accès&lt;/li&gt;&#xA;&lt;li&gt;Partage en temps réel&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>IA vs Ransomware</title>
-      <link>https://ikram-gryach.github.io/hugo-portfolio/portfolio/data-science-ransomware/</link>
+      <link>/portfolio/data-science-ransomware/</link>
       <pubDate>Wed, 20 Mar 2024 19:59:22 +0530</pubDate>
-      <guid>https://ikram-gryach.github.io/hugo-portfolio/portfolio/data-science-ransomware/</guid>
+      <guid>/portfolio/data-science-ransomware/</guid>
       <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;p&gt;Projet innovant utilisant l&amp;rsquo;IA pour améliorer la détection des ransomwares via l&amp;rsquo;augmentation de données.&lt;/p&gt;&#xA;&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;CTGAN, TGAN, TVAE&lt;/li&gt;&#xA;&lt;li&gt;Machine Learning&lt;/li&gt;&#xA;&lt;li&gt;Deep Learning&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;résultats&#34;&gt;Résultats&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Données synthétiques de qualité&lt;/li&gt;&#xA;&lt;li&gt;Amélioration de la détection&lt;/li&gt;&#xA;&lt;li&gt;Validation par ML/DL&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>IoT Smart Irrigation</title>
-      <link>https://ikram-gryach.github.io/hugo-portfolio/portfolio/iot-irrigation/</link>
+      <link>/portfolio/iot-irrigation/</link>
       <pubDate>Wed, 20 Mar 2024 19:59:22 +0530</pubDate>
-      <guid>https://ikram-gryach.github.io/hugo-portfolio/portfolio/iot-irrigation/</guid>
+      <guid>/portfolio/iot-irrigation/</guid>
       <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;p&gt;Système d&amp;rsquo;irrigation intelligent utilisant ThingsBoard pour l&amp;rsquo;automatisation basée sur des données en temps réel.&lt;/p&gt;&#xA;&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ThingsBoard IoT&lt;/li&gt;&#xA;&lt;li&gt;JSON&lt;/li&gt;&#xA;&lt;li&gt;Capteurs virtuels&lt;/li&gt;&#xA;&lt;li&gt;Gmail API&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;points-clés&#34;&gt;Points Clés&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Monitoring temps réel&lt;/li&gt;&#xA;&lt;li&gt;Activation automatique&lt;/li&gt;&#xA;&lt;li&gt;Alertes par email&lt;/li&gt;&#xA;&lt;li&gt;Interface ThingsBoard&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;points-forts&#34;&gt;Points Forts&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Système entièrement automatisé&lt;/li&gt;&#xA;&lt;li&gt;Notifications en temps réel&lt;/li&gt;&#xA;&lt;li&gt;Interface utilisateur intuitive&lt;/li&gt;&#xA;&lt;li&gt;Gestion efficace des ressources en eau&lt;/li&gt;&#xA;&lt;li&gt;Seuils configurables&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>IA Explicable</title>
-      <link>https://ikram-gryach.github.io/hugo-portfolio/portfolio/tipe-shapley/</link>
+      <link>/portfolio/tipe-shapley/</link>
       <pubDate>Wed, 20 Mar 2024 19:59:22 +0530</pubDate>
-      <guid>https://ikram-gryach.github.io/hugo-portfolio/portfolio/tipe-shapley/</guid>
+      <guid>/portfolio/tipe-shapley/</guid>
       <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;p&gt;Application de la valeur de Shapley pour rendre les décisions des modèles d&amp;rsquo;IA transparentes et compréhensibles.&lt;/p&gt;&#xA;&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;Machine Learning&lt;/li&gt;&#xA;&lt;li&gt;Algorithmes Shapley&lt;/li&gt;&#xA;&lt;li&gt;Data Viz&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;résultats&#34;&gt;Résultats&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Transparence des modèles&lt;/li&gt;&#xA;&lt;li&gt;Analyse des features&lt;/li&gt;&#xA;&lt;li&gt;Visualisation claire&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
